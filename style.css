@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+  font-family: 'Poppins';
+}
+
+body{
+  background-color: #303030;
+}
+
+header{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 50px 80px;
+}
+
+header h1{
+  margin-left: 30%;
+}
+
+
+figcaption{
+  display: flex;
+  display: flex;
+  justify-content: center;
+}
+
+article{
+  display: flex;
+  justify-content: center;
+}
+
+input{
+  background-color: blue;
+  padding: 15px 30px;
+  border-radius: 35px;
+  border: none;
+  color: #fff;
+  font-family: 'Poppins';
+  font-size: 16px;
+  margin: 0 15px;
+
+}
+
+input:hover{
+  background-color: blueviolet;
+}
+
+.lampada-acessa{
+  display: none;
+}
+
+.lampada-quebrada{
+  display: none;
+}
